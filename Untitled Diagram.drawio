@@ -1,9 +1,12 @@
-<mxfile host="www.draw.io" modified="2020-01-02T10:44:29.632Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="a9V34w-ScwKPNUBuDCVW" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-02T10:59:34.309Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="yHwX7FAt8_6I-bnnfdPg" version="12.4.8" type="github">
   <diagram id="Zguhyl8q3c73hlB-W-YL" name="Page-1">
-    <mxGraphModel dx="2249" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="Fs8acy65PH0SKYAblhne-10" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=409;dy=123;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-90" width="1070" height="1124" as="geometry"/>
+        </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="180" as="targetPoint"/>
@@ -48,7 +51,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-15" value="EbsScenarioValueContainer" style="text;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="468" width="180" height="30" as="geometry"/>
+          <mxGeometry x="450" y="423" width="180" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-21" target="5PvelqhBBTUs5rNvNfTe-19" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -57,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-19" value="返回门槛不通过" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="572" width="120" height="60" as="geometry"/>
+          <mxGeometry x="540" y="512" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-21" target="5PvelqhBBTUs5rNvNfTe-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -65,27 +68,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-21" value="门槛校验" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="562" width="80" height="80" as="geometry"/>
+          <mxGeometry x="340" y="502" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-23" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="582" width="30" height="20" as="geometry"/>
+          <mxGeometry x="440" y="520" width="30" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-24" value="&lt;h1&gt;出参说明&lt;/h1&gt;&lt;p&gt;计算结果，包含&lt;/p&gt;&lt;p&gt;1. 不通过会返回那条条件不通过&lt;/p&gt;&lt;p&gt;2. 通过，会将计算结果封装后返回，让上游直接执行；比如需要扣减多少积分，会直接返回要扣减的积分，上游直接调用API或线下执行扣减动作&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-122" y="550" width="202" height="180" as="geometry"/>
         </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5PvelqhBBTUs5rNvNfTe-26" target="Fs8acy65PH0SKYAblhne-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-26" value="遍历执行动作列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="702" width="120" height="60" as="geometry"/>
+          <mxGeometry x="320" y="630" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="662" width="30" height="20" as="geometry"/>
+          <mxGeometry x="380" y="590" width="30" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5PvelqhBBTUs5rNvNfTe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-30" edge="1">
+        <mxCell id="5PvelqhBBTUs5rNvNfTe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-30" edge="1" target="5PvelqhBBTUs5rNvNfTe-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="562" as="targetPoint"/>
+            <mxPoint x="380" y="560" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-30" value="组装策略容器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="453" width="120" height="60" as="geometry"/>
+          <mxGeometry x="320" y="408" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5PvelqhBBTUs5rNvNfTe-36" target="5PvelqhBBTUs5rNvNfTe-38" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -96,16 +104,36 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-36" value="校验实例是&lt;br&gt;否已生效" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="300" width="80" height="80" as="geometry"/>
+          <mxGeometry x="340" y="280" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-38" value="返回活动未生效" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="310" width="120" height="60" as="geometry"/>
+          <mxGeometry x="530" y="290" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-40" value="否" style="text;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="319" width="40" height="30" as="geometry"/>
+          <mxGeometry x="440" y="290" width="40" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="5PvelqhBBTUs5rNvNfTe-41" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="400" width="30" height="20" as="geometry"/>
+          <mxGeometry x="380" y="369" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fs8acy65PH0SKYAblhne-3" target="Fs8acy65PH0SKYAblhne-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="920" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-3" value="匹配全局规则执行设置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fs8acy65PH0SKYAblhne-6" target="Fs8acy65PH0SKYAblhne-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-6" value="规则列表分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-7" value="&lt;h1&gt;规则分类&lt;/h1&gt;&lt;p&gt;根据规则优先级分为三类：&lt;/p&gt;&lt;p&gt;1. 最高优先级规则&lt;/p&gt;&lt;p&gt;2. 普通规则&lt;/p&gt;&lt;p&gt;3. 默认规则&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="780" width="200" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fs8acy65PH0SKYAblhne-8" value="校验最高优先级规则条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="910" width="80" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
