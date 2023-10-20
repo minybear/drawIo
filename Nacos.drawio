@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T11:21:40.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="IcHOjle-WXCpJQdz0VSV" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T11:29:50.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_jRjHwDHifPbMYwspgBL" version="22.0.4" type="github">
   <diagram name="第 1 页" id="CJJhauZ1sSAFdNGBMgmO">
-    <mxGraphModel dx="3180" dy="2708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3488" dy="2871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Z56LqXfaJe-E6HUH-a8F-30" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;dashed=1;dashPattern=8 8;glass=1;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="-669" width="400" height="289" as="geometry" />
+          <mxGeometry x="-530" y="-669" width="400" height="379" as="geometry" />
         </mxCell>
         <mxCell id="Z56LqXfaJe-E6HUH-a8F-11" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;dashed=1;dashPattern=8 8;shadow=0;glass=1;" vertex="1" parent="1">
           <mxGeometry x="-1005" y="-969.8113207547171" width="400" height="329.811320754717" as="geometry" />
@@ -226,7 +226,7 @@
         <mxCell id="Z56LqXfaJe-E6HUH-a8F-50" value="1. 这个RedoData作用是当instance注册，注销，删除失败时，会有一个RedoScheduledTask（实现了Runnable接口）进行重试任务的获取并执行；&lt;br style=&quot;font-size: 13px;&quot;&gt;2. NamingGrpcClientProxy对象创建的时候，在其构建方法里会有一个NamingGrpcRedoService类，在其构造的时候，会创建一个定时线程池，并监听RedoScheduledTask，每三秒执行一次" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Architects Daughter;" vertex="1" parent="1">
           <mxGeometry x="-795" y="-593.5" width="190" height="253.5" as="geometry" />
         </mxCell>
-        <mxCell id="Z56LqXfaJe-E6HUH-a8F-51" value="&amp;nbsp;RedoData&amp;lt;？&amp;gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="Z56LqXfaJe-E6HUH-a8F-51" value="&amp;nbsp;RedoData&amp;lt;?&amp;gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="-960" y="-584" width="160" height="149.5" as="geometry" />
         </mxCell>
         <mxCell id="Z56LqXfaJe-E6HUH-a8F-52" value="groupName;&lt;br&gt;serviceName;&lt;br&gt;instance;&lt;br&gt;expectedRegistered;&lt;br&gt;registered;&lt;br&gt;unregistering;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="Z56LqXfaJe-E6HUH-a8F-51">
